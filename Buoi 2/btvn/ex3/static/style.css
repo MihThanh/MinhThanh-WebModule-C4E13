@@ -1,0 +1,51 @@
+.bg{
+  width: 800px;
+  height: 150px;
+  background-size: cover;
+}
+#dantri{
+  border-width: 3px;
+  border-color: #e2e4e2;
+  border-style: inset;
+  margin: 60px;
+  background-color: #e2e4e2;
+}
+#google{
+  border-width: 3px;
+  border-color: #e2e4e2;
+  border-style: inset;
+  margin: 60px;
+  background-color: #e2e4e2;
+}
+#face{
+  border-width: 3px;
+  border-color: #e2e4e2;
+  border-style: outset;
+  margin: 60px;
+  background-color: #e2e4e2;
+  /*background-image: url(/static/facebook);*/
+}
+.m-l-200{
+  margin-left: 200px;
+}
+.m-l-450p{
+  margin-left: 450px;
+}
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+.f-c-black{
+  color: black;
+}

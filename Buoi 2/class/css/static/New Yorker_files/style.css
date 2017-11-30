@@ -1,0 +1,30 @@
+#img-small{
+  width: 150px;
+  height: auto;
+  margin-left: 500px;
+}
+.f-b{
+  color: black;
+}
+.b-20{
+  border-width: 1px;
+  border-style: double;
+  border-color: #fff3f3;
+}
+
+.h-40p{
+  height: 40px;
+}
+#new{
+  margin: 30px;
+}
+
+#cul{
+  margin: 30px;
+}
+.m-120{
+  margin: 120px;
+}
+.p-t-20p{
+  padding-top: 900px;
+}
