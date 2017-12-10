@@ -1,0 +1,20 @@
+.font{
+  font-family: 'Exo 2', sans-serif;
+  margin-left: 40px;
+}
+.carousel-item img{
+  height: 400px;
+  width: auto;
+  object-fit: cover;
+}
+.ht-30p{
+  height: 60px;
+}
+.f-s{
+  font-size: 23px;
+  font-family: 'Lato', sans-serif;
+
+}
+.m-t-20p{
+  margin-top: 20px;
+}
