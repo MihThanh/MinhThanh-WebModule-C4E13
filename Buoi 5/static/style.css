@@ -11,10 +11,22 @@
   height: 60px;
 }
 .f-s{
-  font-size: 23px;
+  font-size: 20px;
   font-family: 'Lato', sans-serif;
 
 }
 .m-t-20p{
-  margin-top: 20px;
+  margin-top: 50px;
+}
+.m-l-20p{
+  margin-left: 300px
+}
+.m-l-40p{
+  margin-left: 150px;
+}
+.m-l-60p{
+  margin-left: 150px;
+}
+.f-s-50p{
+  font-size: 50px;
 }

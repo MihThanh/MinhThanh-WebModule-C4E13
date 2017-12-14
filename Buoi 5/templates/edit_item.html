@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %}
+Chỉnh sửa
+{% endblock %}
+{% block page_content %}
+  <form class="" method="post">
+    <div class="container">
+      <div class="form-group">
+        <label class=""for="">Xuất sứ</label>
+        <input class="form-control" name="title" value="{{ item.title }}" type="text" placeholder="Xuất sứ">
+      </div>
+      <div class="form-group">
+        <label for="">Tên món ăn</label>
+        <input class="form-control"name="description" value="{{ item.description }}" type="text" placeholder="Tên món ăn">
+      </div>
+      <div class="form-group">
+        <label for="">Link ảnh</label>
+        <input class="form-control"type="text" name="image" value="{{ item.image }}" placeholder="Link">
+      </div>
+      <div class="">
+        <label for="">Giá</label>
+        <input class="form-control"type="int" name="price" value="{{ item.price }}" placeholder="Giá">
+      </div>
+      <input class="btn btn-info mt-3"type="submit" name="" value="Sửa">
+      {% for message in get_flashed_messages() %}
+        <p class="text-info mt-2">{{ message }}</p>
+      {% endfor %}
+    </div>
+  </form>
+
+{% endblock %}

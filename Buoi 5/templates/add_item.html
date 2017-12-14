@@ -1,17 +1,8 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <script type="text/javascript" src="/static/js/jquery-3.2.1.min.js">
-    </script>
-    <script type="text/javascript"src="/static/js/popper.js">
-    </script>
-    <script type="text/javascript"src="/static/js/bootstrap.min.js">
-    </script>
-    <link rel="stylesheet" href="static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/static/style1.css">
-    <title></title>
-  </head>
+{% extends 'base.html' %}
+{% block title %}
+Thêm món ăn
+{% endblock %}
+{% block page_content %}
   <body class="mt-4 container">
     <form class=""method="post">
       <div class="card">
@@ -27,6 +18,4 @@
       </div>
     </form>
 
-
-  </body>
-</html>
+{% endblock %}

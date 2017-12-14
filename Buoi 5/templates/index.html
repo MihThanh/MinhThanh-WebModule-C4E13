@@ -1,24 +1,8 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta charset="utf-8">
-    <script type="text/javascript" src="/static/js/jquery-3.2.1.min.js">
-    </script>
-    <script type="text/javascript"src="/static/js/popper.js">
-    </script>
-    <script type="text/javascript"src="/static/js/bootstrap.min.js">
-    </script>
-    <link rel="stylesheet" href="static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/static/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-
-
-    <title></title>
-  </head>
-  <body>
+{% extends 'base.html' %}
+{% block title %}
+Food Transporter
+{% endblock %}
+{% block page_content %}
     <div class="bg-dark navbar">
       <a class="navbar-brand text-white font"href="#">Food Transporter</a>
       <div class="mr-2">
@@ -79,13 +63,14 @@
       {% endfor %}
     </div>
   </div>
-  <!-- <div class="bg-dark ht-30p">
-    <div class="text-white m-t-20p">
+  <div class="bg-dark ht-30p m-t-20p">
+    <div class="text-white ">
       <a class="f-s text-white m-l-20p m-t-20p"href="#">Về chúng tôi</a>
-      <a class="f-s text-white m-l-40p"href="#">Bản đồ</a>
-      <a class="f-s text-white m-l-60p"href="#">Hỗ trợ</a>
+      <a class="f-s text-white m-l-40p m-t-20p"href="#">Bản đồ</a>
+      <a class="f-s text-white m-l-60p m-t-20p"href="#">Hỗ trợ</a>
     </div>
 
-  </div> -->
-  </body>
-</html>
+  </div>
+
+
+{% endblock %}
